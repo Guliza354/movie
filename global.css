@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121829;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header .menu {
+    display: flex;
+    gap: 16px;
+}
+
+header .menu a {
+    font-weight: 600;
+    color: rgba(168, 174, 191, 1);
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.hero p {
+    width: 580px;
+    color: #8E95A9;
+    margin-bottom: 24px;
+}
+
+.hero p span {
+    color: #9C92F8;
+}
+
+.search {
+    border: 1px solid #323B54;
+    border-radius: 12px;
+    padding: 24px 16px;
+    width: 344px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+.search input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.filter-btns {
+    width: 368px;
+    border-radius: 12px;
+    padding: 8px;
+    display: flex;
+    background-color: #0D2136;
+}
+
+.filter-btns button {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    color: #8E95A9;
+    padding: 8px 32px;
+    transition: all ease 0.5ms;
+    font-size: 16px;
+    letter-spacing: 8%;
+}
+
+.filter-btns button.active {
+    color: white;
+    background-color: #7B6EF6;
+    border-radius: 8px;
+}
+
+.filter-btns button:hover {
+    color: white;
+    background-color: #7B6EF6;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 282px;
+    padding: 8px;
+    padding-bottom: 16px;
+    background-color:#20283ECC ;
+    border-radius: 12px;
+    position: relative;
+}
+.card h3{
+    color:#EBEEF5;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card .poster {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.card span {
+    color: #FFAD49;
+    background-color: #0000008c;
+    padding: 8px;
+    border-radius: 8px;
+    position: absolute;
+    top: 18px;
+    left: 16px;
+    img{
+        margin-right: 4px;
+    }
+}
